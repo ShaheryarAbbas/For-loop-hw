@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loop</title>
+     <!-- In Javascript loop is used to print single statement or block of statements multiple times.
+     Loop have three parts
+     1. Initialization
+     2. Condition
+     3. Increament/ decreament
+     There are five kinds of loops.
+     1. while Loop
+     2. for Loop
+     3. do while Loop
+     4. for each Loop
+     5. for in Loop -->
+</head>
+<body>
+    <!-- <label for="">Table of</label>
+    <input type="text" id="tab">
+    <button type="submit" onclick="fun()">Enter</button>
+    <div id="demo"></div>
+    <br>
+    <br> -->
+    <!-- <label for="">Table of</label>
+    <input type="text" id="num">
+    <button type="submit" onclick="fun2()">Enter</button>
+    <div id="demo2"></div> -->
+    <label for="">input</label>
+    <input type="text" id="star">
+    <button type="submit" onclick="fun3()">Enter</button>
+    <div id="demo3"></div>
+    <script>
+        // Table of 11 from 10-1
+        // var k=10;
+        // while(k>=1){
+        //     document.write(11 + " * " + k + " = " + 11*k + "<br>");
+        //     k--;
+        // }
+        // table of __ from __ to __
+        // function fun(){
+        //     var tab=document.getElementById("tab").value;
+        //     var c = 1;
+        //     while(c<=tab){
+        //         document.write(tab + " * " + c + " = " + c*tab + "<br>");
+        //         c++;
+        //     }
+        // }
+        // for loop
+        // for(var m=1;m<=10;m++){
+        //     document.write(12 + " * " + m + " = " + m*12 +"<br>") 
+        // }
+        // function fun2(){
+        //     var num=document.getElementById("num").value;
+        //     for(var s=1;s<=num;s++){
+        //         document.write(num + " * " + s + " = " + s*num + "<br>")
+        //     }
+        // }
+        function fun3(){
+            var star=document.getElementById("star").value;
+            for(var x=1;x<=star;x++){
+                for(var y=1;y<=x;y++){
+                    document.write("&nbsp")
+                }
+                document.write("*" + "<br>")
+            }
+        }
+        // No more fun
+    </script>
+</body>
+</html>
